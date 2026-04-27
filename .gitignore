@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints (large binary files)
+checkpoints/
+training/checkpoints/
+
+# TensorBoard logs
+logs/
+training/logs/
+
+# Gameplay videos
+videos/
+
+# macOS
+.DS_Store
+
+# Results (comment out if you want to track evaluation output)
+# results/
